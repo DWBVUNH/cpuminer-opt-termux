@@ -40,10 +40,10 @@ echo "${LYLO}Cloning cpuminer-opt${N}"
 sleep 5
 git clone https://github.com/DWBVUNH/cpuminer-opt
 cd cpuminer-opt
-sleep 3
+#sleep 3
 # compile
-echo "${LYLO}Compiling now${N}"
-sleep 5
+#echo "${LYLO}Compiling now${N}"
+#sleep 5
 #if ! ./build.sh; then
     #echo "${RD}Error: Compiling failed${N}"
     #exit 1
