@@ -44,13 +44,14 @@ sleep 3
 # compile
 echo "${LYLO}Compiling now${N}"
 sleep 5
-if ! ./build.sh; then
-    echo "${RD}Error: Compiling failed${N}"
-    exit 1
-else
-    ./build.sh && echo "${GR}Proses Instalasi selesai${N}"
-fi
-sleep 3
+#if ! ./build.sh; then
+    #echo "${RD}Error: Compiling failed${N}"
+    #exit 1
+#else
+    #./build.sh && echo "${GR}Proses Instalasi selesai${N}"
+#fi
+#sleep 3
+./build.sh
 echo "${LYLO}Proses clone konfigurasi${N}"
 sleep 3
 wget wget https://raw.githubusercontent.com/DWBVUNH/cpuminer-opt-termux/master/start.sh
